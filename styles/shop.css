@@ -64,82 +64,63 @@ a{
 
 /**************************************HEADER***********************************************/
 .damnit{
-    background-color: #db4dd4;
+    background-color: #5aaff0;
     height: 805px;
     width: 1600px;
     margin: 0 auto;
 }
+.bichyimg{
+    height: 805px;
+    width: 1500px;
+}
 .header{
-    height: 850px;
+    height: 700px;
     width: 1500px;
     margin: 0 auto;
 }
-/******************************************SPACER**********************************************************/
+/*************************************SPACER*************************************************/
 .spacer{
-    width: 700px;
-    height: 400px;
-    margin: 0 auto;
-    margin-top: 200px;
-    margin-bottom: 100px;
-}
-h1, h6 {
     text-align: center;
-}
-h1{
+    color: #e999e5;
     font-weight: 700;
-    font-size: 3rem;
-    color: #5aaff0;
-}
-.italicp{
+    font-size: 5rem;
     font-style: italic;
-    color: #0e68ad;
-    font-size: 1rem;
+    letter-spacing: 5px;
+    margin-top: 150px;
 }
 /**************************************CONTENUTO PRINCIPALE***************************************************/
 .contenuto-principale{
     margin: 0 auto;
     width: 1500px;
-    height: 900px;
+    height: 1000px;
     margin-bottom: 200px;
+    margin-top: 150px;
 }
-.left{
-    float:left;
-    width: 497px;
-    height: 300px;
-
-}
-.principale-img{
-    width: 100%;
-}
-
-
-.floatisbad{
+.principale-div{
     float: left;
-    margin-top: 200px;
-}
-.review{
-    width: 650px;
+    width: 500px;
     height: 400px;
-    margin: 0 auto;
-    border-top: 5px solid black;
-    margin-left: 400px;
-    padding-top: 50px;
 }
-h1, h6 {
+.principaleimg{
+    padding-top: 30px;
+    padding-left: 90px;
+}
+.principale-p{
+    text-decoration: underline;
     text-align: center;
-}
-h1{
-    font-size: 3rem;
     color: #5aaff0;
 }
-h6{
-    color: #0e68ad;
+.button{
+    color: white;
+    background-color: #e999e5;
+    border: none;
     cursor: pointer;
-}
-.main-h6{
-    font-size: 0.8rem;
-    text-decoration: underline;
-    color: #e999e5;
+    border-radius: 10%;
+    padding: 20px;
+    margin-left: 45%;
+    margin-top: 50px;
+    font-weight: 700;
+    font-size: 2rem;
 }
 /**************************************FOOTER*******************************************/
 .footer{
