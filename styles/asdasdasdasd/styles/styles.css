@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    text-align: center; 
+    font-family: 'Rubik', sans-serif;; 
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: gray;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-size: 75%;
+    letter-spacing: 5px;
+  }
+  li a:hover {
+    background-color: blanchedalmond;
+}
+.navbar-container{
+    margin: auto;
+    height: 60px;
+    width: 960px;
+    margin-left: 39%;
+    margin-top: 1%;
+}
+.firstlyric{
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 5%;
+}
+.floatright{
+    float: right;
+    margin-left: 1000px;
+    margin-right: 11%;
+    color: grey;
+    letter-spacing: 1px;
+}
+.floatleft{
+    float: left;
+    color: grey;
+    margin-right: 1000px;
+    margin-left: 11%;
+    letter-spacing: 1px;
+}
+.pain{
+    margin-top: 10%;
+    margin-left: 11%;
+}
+.pain::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+    
+}
+.second{  
+    float: left;
+}
+.secondt{
+    float: right;
+    padding-right: 13.6%;
+    
+}
+.secondlyric{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+hr{
+    width: 1500px;
+}
+.buttonsdiv{
+    clear:left;
+    margin-bottom: 10%;
+    margin-left: 40%;
+    margin-top: 20%;
+}
+.buttons{
+    border: 2px solid grey;
+    text-align: center;
+    float: left;
+    padding:3px 30px;
+    margin-right: 20%;
+    margin-bottom: 10%;
+
+}
+.buttons:hover{
+    background-color: grey;
+    border: 2px solid white;
+    cursor: pointer;
+}
+i{
+    margin: 0 0.4%;
+}
+.icons{
+    font-size: 150%;
+    margin-bottom: 5%;
+}

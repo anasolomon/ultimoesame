@@ -100,16 +100,14 @@ h1{
 }
 /**************************************CONTENUTO PRINCIPALE***************************************************/
 .contenuto-principale{
-    border: 1px solid;
     margin: 0 auto;
     width: 1500px;
     height: 900px;
     margin-bottom: 200px;
-    background-image: url(/imgs/AsenseiSM.jpg);
+    background-image: url(../imgs/AsenseiSM.jpg);
     background-repeat: no-repeat, repeat;
 }
 .contenuto-figlio{
-    border: 1px solid pink;
     width: 700px;
     height: 500px;
     float: right;

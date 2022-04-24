@@ -103,12 +103,22 @@ a{
     width: 690px;
     height: 450px;
     float: left;
+    
 }
 .figlio2{
     width: 690px;
     height: 450px;
-    margin-top: 50px;
+    margin-top: 100px;
     float: left;
+    border: 10px solid transparent;
+    border-image: url(../imgs/border.jpg) 30 stretch;
+}
+.dash{
+    width: 670px;
+}
+.blabla{
+    border: 10px solid transparent;
+    border-image: url(../imgs/border.jpg) 30 stretch;
 }
 .title-p, .lorem-p{
     text-align: center;
